@@ -1,0 +1,12 @@
+:root{
+	--background_dSignIn: #7aa4ff;
+	--background_dSignUp: #ff7a7a;
+}
+
+html, body, #root{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+}

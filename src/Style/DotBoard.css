@@ -1,0 +1,45 @@
+#dotBoard, #dotHolder, #dotHolder div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+#dotBoard{
+	width: 100%;
+	flex-direction: column;
+}
+
+#dotHolder{
+	width: 80%;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+#dotHolder div{
+	width: 2vw;
+	height: 2vw;
+	margin: 1px;
+	border-radius: 100%;
+	user-select: none;
+	transition: border-radius 0.5s;
+}
+
+#dotHolder div:hover{
+	border-radius: 40%;
+}
+
+
+#dotHolder div[val="-1"]{
+	background-color: black;
+	color: white;
+}
+
+
+#dotHolder div[val="0"]{
+	background-color: red;
+}
+
+#dotHolder div[val="1"]{
+	background-color: green;
+}
